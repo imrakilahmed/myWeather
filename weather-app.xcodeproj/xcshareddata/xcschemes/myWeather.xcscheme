@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1230"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6981E26122C719F00059ECAC"
-               BuildableName = "myWeather.app"
-               BlueprintName = "myWeather"
-               ReferencedContainer = "container:myWeather.xcodeproj">
+               BuildableName = "weather-app.app"
+               BlueprintName = "weather-app"
+               ReferencedContainer = "container:weather-app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6981E26122C719F00059ECAC"
-            BuildableName = "myWeather.app"
-            BlueprintName = "myWeather"
-            ReferencedContainer = "container:myWeather.xcodeproj">
+            BuildableName = "weather-app.app"
+            BlueprintName = "weather-app"
+            ReferencedContainer = "container:weather-app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -57,13 +55,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6981E26122C719F00059ECAC"
-            BuildableName = "myWeather.app"
-            BlueprintName = "myWeather"
-            ReferencedContainer = "container:myWeather.xcodeproj">
+            BuildableName = "weather-app.app"
+            BlueprintName = "weather-app"
+            ReferencedContainer = "container:weather-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
       <LocationScenarioReference
          identifier = "com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier"
          referenceType = "1">
@@ -80,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6981E26122C719F00059ECAC"
-            BuildableName = "myWeather.app"
-            BlueprintName = "myWeather"
-            ReferencedContainer = "container:myWeather.xcodeproj">
+            BuildableName = "weather-app.app"
+            BlueprintName = "weather-app"
+            ReferencedContainer = "container:weather-app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -57,7 +57,7 @@
 		696B8ECD22C71B6600BC32B7 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		696B8ED122C71BDE00BC32B7 /* ChangeCityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityVC.swift; sourceTree = "<group>"; };
 		696B8EE222C7215D00BC32B7 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		6981E26222C719F00059ECAC /* myWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6981E26222C719F00059ECAC /* weather-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6981E26522C719F00059ECAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		698F8C1722CF389900140470 /* windy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = windy.gif; sourceTree = "<group>"; };
 		98D1C2C356FBAE4B183B4CBE /* Pods-myWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myWeather.debug.xcconfig"; path = "Target Support Files/Pods-myWeather/Pods-myWeather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		6981E25922C719F00059ECAC = {
 			isa = PBXGroup;
 			children = (
-				6981E26422C719F00059ECAC /* myWeather */,
+				6981E26422C719F00059ECAC /* weather-app */,
 				6981E26322C719F00059ECAC /* Products */,
 				2FF69CF732AF0A09995EABBA /* Pods */,
 				C7B21B2E07165A62D8366455 /* Frameworks */,
@@ -142,12 +142,12 @@
 		6981E26322C719F00059ECAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6981E26222C719F00059ECAC /* myWeather.app */,
+				6981E26222C719F00059ECAC /* weather-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6981E26422C719F00059ECAC /* myWeather */ = {
+		6981E26422C719F00059ECAC /* weather-app */ = {
 			isa = PBXGroup;
 			children = (
 				695DEC4322C7272E0025BED6 /* View Controllers */,
@@ -157,7 +157,7 @@
 				6942D8EA22D09E76005A026C /* Gifs */,
 				695DEC4222C7270B0025BED6 /* Supporting Files */,
 			);
-			path = myWeather;
+			path = "weather-app";
 			sourceTree = "<group>";
 		};
 		C7B21B2E07165A62D8366455 /* Frameworks */ = {
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6981E26122C719F00059ECAC /* myWeather */ = {
+		6981E26122C719F00059ECAC /* weather-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6981E27422C719F00059ECAC /* Build configuration list for PBXNativeTarget "myWeather" */;
+			buildConfigurationList = 6981E27422C719F00059ECAC /* Build configuration list for PBXNativeTarget "weather-app" */;
 			buildPhases = (
 				70B969289A5C351AF02FCAF7 /* [CP] Check Pods Manifest.lock */,
 				6981E25E22C719F00059ECAC /* Sources */,
@@ -186,9 +186,9 @@
 			);
 			dependencies = (
 			);
-			name = myWeather;
+			name = "weather-app";
 			productName = "the-planner";
-			productReference = 6981E26222C719F00059ECAC /* myWeather.app */;
+			productReference = 6981E26222C719F00059ECAC /* weather-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +198,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Rakil Ahmed";
 				TargetAttributes = {
 					6981E26122C719F00059ECAC = {
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6981E25D22C719F00059ECAC /* Build configuration list for PBXProject "myWeather" */;
+			buildConfigurationList = 6981E25D22C719F00059ECAC /* Build configuration list for PBXProject "weather-app" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6981E26122C719F00059ECAC /* myWeather */,
+				6981E26122C719F00059ECAC /* weather-app */,
 			);
 		};
 /* End PBXProject section */
@@ -329,6 +329,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -390,6 +391,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -427,8 +429,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HT5QHZVQ62;
-				INFOPLIST_FILE = "$(SRCROOT)/myWeather/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/weather-app/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +451,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HT5QHZVQ62;
-				INFOPLIST_FILE = "$(SRCROOT)/myWeather/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				INFOPLIST_FILE = "$(SRCROOT)/weather-app/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6981E25D22C719F00059ECAC /* Build configuration list for PBXProject "myWeather" */ = {
+		6981E25D22C719F00059ECAC /* Build configuration list for PBXProject "weather-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6981E27222C719F00059ECAC /* Debug */,
@@ -475,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6981E27422C719F00059ECAC /* Build configuration list for PBXNativeTarget "myWeather" */ = {
+		6981E27422C719F00059ECAC /* Build configuration list for PBXNativeTarget "weather-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6981E27522C719F00059ECAC /* Debug */,

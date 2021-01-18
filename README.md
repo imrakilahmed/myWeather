@@ -1,3 +1,3 @@
-myWeather DEMO:
+weather-app DEMO:
 
-<a href="https://imgflip.com/gif/3a22ga"><img src="https://i.imgflip.com/3a22ga.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/4u83uj"><img src="https://imgflip.com/embed/4u83uj" title="made at imgflip.com"/></a>
